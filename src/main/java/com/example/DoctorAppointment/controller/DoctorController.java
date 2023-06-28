@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/doctors")
 public class DoctorController {
+// http://localhost:8888/swagger-ui/index.html#/patient-controller/removePatient
 
     @Autowired
    DoctorService doctorService;
